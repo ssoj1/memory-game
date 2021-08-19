@@ -1,0 +1,24 @@
+/* you can add to or change this. */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+#game {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#game div {
+  height: 200px;
+  width: 140px;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 10px;
+}
